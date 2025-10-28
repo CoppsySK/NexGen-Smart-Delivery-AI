@@ -105,6 +105,13 @@ Open this link in your browser to access the interactive dashboard.
 
 - Explainable AI Mode: View SHAP plots that explain model predictions.
 
+Below is a snapshot of the **mode selection panel** in Streamlit, showing all the available modes clearly visible for easy access 👇  
+
+<p align="center">
+  <img src="https://github.com/CoppsySK/NexGen-Smart-Delivery-AI/blob/main/mode_selector.png" alt="Mode Selector Screenshot" width="700">
+</p>
+
+*This ensures that reviewers can easily navigate through all implemented functionalities without relying on default selections.*
 ---
 
 5️⃣ (Optional) Run Data Preparation or EDA Scripts
