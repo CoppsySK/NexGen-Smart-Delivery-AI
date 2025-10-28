@@ -294,7 +294,11 @@ elif mode == "Explain Model Predictions":
 
     st.write("Generating SHAP explanations (this may take a few seconds)...")
 
-    explainer = shap.TreeExplainer(model)
+    try:
+        explainer = shap.TreeExplainer(model.get_booster())
+    except Exception:
+        explainer = shap.TreeExplainer(model)
+
     shap_values = explainer.shap_values(X)
 
     # --- Select order for explanation ---
