@@ -84,7 +84,7 @@ pip install streamlit pandas numpy scikit-learn xgboost shap plotly matplotlib
 Launch the app with:
 
 ```bash
-streamlit run app.py
+streamlit run your_app.py
 ```
 This will start a local server.
 You’ll see a message like:
